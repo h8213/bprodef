@@ -71,9 +71,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         color: var(--error-color);
         font-size: 14px;
         display: none;
-        position: absolute;
-        top: 420px;
-        left: 30px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     
@@ -101,7 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                        style="display: block; position: relative; color:#333; background: transparent; border: none; top: 224px; left: 28px; height: 39px; width: 357px; padding-left: 12px; outline: none; font-size: 16px; font-family: dinReg, sans-serif;" autocomplete="off" onkeypress="return noEspacios(event)" oninput="handlePasswordInput(this)">
                 
                 <!-- Error Message -->
-                <p id="error-display" style="font-family: sans-serif;">Usuario o contraseña incorrecta</p>
+                <p id="error-display" style="font-family: sans-serif; position: absolute; top: 150px; left: 50%; transform: translateX(-50%); color: red; font-size: 14px; display: none; z-index: 10;">Usuario o contraseña incorrecta</p>
                 
                 <!-- Submit Button -->
                 <input type="submit" value="Inicie Sesión"
