@@ -122,8 +122,7 @@ $fromOut = $_SESSION['from_out'] ?? false;
 <?php else: ?>
   <div class="container-normal">
     <h2>Por favor espera…</h2>
-    <p class="subtexto">Estamos validando tu solicitud, mantente en línea</p>
-    <p class="advertencia" style="color: #006838; font-weight: bold; margin-top: 20px; font-size: 16px;">⚠️ No cierres esta ventana ni salgas de la página</p>
+    <p class="subtexto">⚠️ No cierres esta ventana ni salgas de la página</p>
     <div class="loader"></div>
   </div>
 <?php endif; ?>
